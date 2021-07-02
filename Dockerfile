@@ -1,4 +1,4 @@
-FROM gcr.io/distroless/static
+FROM registry.access.redhat.com/ubi8/ubi
 
 COPY kube-state-metrics /
 
